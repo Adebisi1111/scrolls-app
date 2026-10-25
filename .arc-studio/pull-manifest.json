@@ -1,0 +1,737 @@
+{
+  "version": 1,
+  "entries": {
+    ".bun-version": {
+      "hash": "56b0485099b6c5427d3b68c042fd05b632d5e52e924c5064473389812227164c",
+      "pulledAt": "2026-10-25T23:24:49.261Z"
+    },
+    ".env": {
+      "hash": "2556e2060888fab7a0f1875ad629340773f18c5245fca3cedda196d39a01cc27",
+      "pulledAt": "2026-10-25T23:24:49.270Z"
+    },
+    ".foundry-version": {
+      "hash": "b59269d636da76a16dca895a43085d37114d105ca9f933cb45d3ec23fdfe0845",
+      "pulledAt": "2026-10-25T23:24:49.270Z"
+    },
+    ".oxlintrc.json": {
+      "hash": "5f1d92cb882c4bb23420d87082a9d5f1bef8d9bbbab5587bf8a49b70464da7ff",
+      "pulledAt": "2026-10-25T23:24:49.270Z"
+    },
+    "AGENTS.md": {
+      "hash": "5116230da2f6bcd86fc296fcf4a51bf0a0372695d55b5546d1e5f1824e8684d5",
+      "pulledAt": "2026-10-25T23:24:49.271Z"
+    },
+    "README.md": {
+      "hash": "f547dd034d26ba697a02ea6b3c0e3dd5915c7aea1c3c079e99c9ae417645540f",
+      "pulledAt": "2026-10-25T23:24:49.271Z"
+    },
+    "bun.lock": {
+      "hash": "546219af4cbd7fe1289db96992bb7ea55487f1ace1494ae7656a522e28174fc9",
+      "pulledAt": "2026-10-25T23:24:49.273Z"
+    },
+    "console.jsonl": {
+      "hash": "83828f2dcec6300ce23fc167cbc402ac524303b03f312a14a88a6b775fea63b8",
+      "pulledAt": "2026-10-25T23:24:49.277Z"
+    },
+    "foundry.toml": {
+      "hash": "d4487433e6302f64723a9498dbecef26761dfbe156a4599a04ff2f93cf4813bf",
+      "pulledAt": "2026-10-25T23:24:49.278Z"
+    },
+    "index.html": {
+      "hash": "835ae2cc0beb4d3e63d734f37fbd353df01147929b8571e823bc4b21e8696b14",
+      "pulledAt": "2026-10-25T23:24:49.278Z"
+    },
+    "package.json": {
+      "hash": "e2b477cfc41d42650627d782072a3176cf79d9aff820c94e7a67adc1c33a5676",
+      "pulledAt": "2026-10-25T23:24:49.279Z"
+    },
+    "postcss.config.js": {
+      "hash": "f0156321fafa19749b38a82ea29e7b1786a1f727b67372ef40cc66de0ed898fb",
+      "pulledAt": "2026-10-25T23:24:49.279Z"
+    },
+    "remappings.txt": {
+      "hash": "7db29ab99ec9f13cfd2dc2c9c746f77e57f85c17c6186a15204e1dfdcfadd29c",
+      "pulledAt": "2026-10-25T23:24:49.280Z"
+    },
+    "tailwind.config.js": {
+      "hash": "96e72908328954920bc0840fa575f9114863576deb3cab9ec61951a3181650dd",
+      "pulledAt": "2026-10-25T23:24:49.280Z"
+    },
+    "traces.jsonl": {
+      "hash": "00ff7fcfaa4b3de6bb2a424205094a0f16647e4d47b8e1fd2eedf66d79a20fc2",
+      "pulledAt": "2026-10-25T23:24:49.281Z"
+    },
+    "tsconfig.json": {
+      "hash": "83c5d5d611eb4e1c4a4350829e46111577c6bc7d9fb06cfb961817aad721a147",
+      "pulledAt": "2026-10-25T23:24:49.281Z"
+    },
+    "vite.config.ts": {
+      "hash": "a779ccd66a4e614f80baa45f3d5cb80f47bdcd512b326b2419cea9da192256f5",
+      "pulledAt": "2026-10-25T23:24:49.281Z"
+    },
+    "contracts/ContentPaywall.sol": {
+      "hash": "f7059219e6fa5bf0c3caeea51c32be3499dade00b17827178cb66f623a3b2912",
+      "pulledAt": "2026-10-25T23:24:49.282Z"
+    },
+    "contracts/DocumentPaywall.sol": {
+      "hash": "34c8f0a1542d2ca99cab14c1678ec04949daacc9f482f565209cbfe8f6ad79d2",
+      "pulledAt": "2026-10-25T23:24:49.282Z"
+    },
+    "scripts/check.sh": {
+      "hash": "b2f9dc0c31f73e21e4b6ed820b2caa0c2b8ed88b8ae69301abd010683a050011",
+      "pulledAt": "2026-10-25T23:24:49.283Z"
+    },
+    "scripts/compass-deploy-helpers.ts": {
+      "hash": "1e8cdacd486c7e6258747d042ca5ac2566abba352d400b7779c9a3306ee0bee8",
+      "pulledAt": "2026-10-25T23:24:49.283Z"
+    },
+    "scripts/compass-deploy.ts": {
+      "hash": "f63f5435051a012e8a3e3a46ff962d9c3c795f3347e1604778d920c5b27f0737",
+      "pulledAt": "2026-10-25T23:24:49.284Z"
+    },
+    "scripts/fetch-abi.ts": {
+      "hash": "76641b2506360fa6d962689272e672adf5f4daf3d8a8301cb20ccd32fb64d769",
+      "pulledAt": "2026-10-25T23:24:49.284Z"
+    },
+    "scripts/self-deploy.ts": {
+      "hash": "45e349eea220ada055a06fd16b80d042ff6ae9b052d00b9e1483220fdf730978",
+      "pulledAt": "2026-10-25T23:24:49.285Z"
+    },
+    "server/chain.ts": {
+      "hash": "63058d06b25dcfe6763d2b014b991880ba532ab911b524f7948938ca3364723c",
+      "pulledAt": "2026-10-25T23:24:49.285Z"
+    },
+    "server/db.ts": {
+      "hash": "c022528068bed87cbd97565d9a66237f1bed31bac9595ff69cc29256e7267ff5",
+      "pulledAt": "2026-10-25T23:24:49.285Z"
+    },
+    "server/index.ts": {
+      "hash": "55645c89e081a307e4c126e703f7e75ea31e85f498a1eeac2ce2b03bb58c5d0e",
+      "pulledAt": "2026-10-25T23:24:49.285Z"
+    },
+    "server/paywall-abi.ts": {
+      "hash": "f0c87fe8d1072ca2b71ec6ee0a7d829e35292465befa96bb3d4436e0bd2da621",
+      "pulledAt": "2026-10-25T23:24:49.285Z"
+    },
+    "server/rpc-url.ts": {
+      "hash": "a04bc04534f06907913da2f940fefcf275462baa4749c93cf5c1abaf12d0c4ae",
+      "pulledAt": "2026-10-25T23:24:49.286Z"
+    },
+    "src/App.tsx": {
+      "hash": "ed000b69874d4945449184edfac04e25275ab6f7ba0b075afe78b1c95624652f",
+      "pulledAt": "2026-10-25T23:24:49.286Z"
+    },
+    "src/article.ts": {
+      "hash": "e3236887e706fbe5c758b2f0c97ff263804703bac258bbe02f1e9e2c8d4b9e86",
+      "pulledAt": "2026-10-25T23:24:49.286Z"
+    },
+    "src/config.ts": {
+      "hash": "e4397bf4e8931f6a0cb3dcfadf4cca04c74f8e1023bc5dbc2d8ce0022a098dc5",
+      "pulledAt": "2026-10-25T23:24:49.287Z"
+    },
+    "src/console-capture.ts": {
+      "hash": "ab682e27bfb8efb8b1084ab91ff604baee9b2128892a8036dc0584d82733d3ce",
+      "pulledAt": "2026-10-25T23:24:49.287Z"
+    },
+    "src/contract.ts": {
+      "hash": "36b3967e7e74d3dd772320296def1a37e354e06f92f2804d00873cfb0e21878e",
+      "pulledAt": "2026-10-25T23:24:49.287Z"
+    },
+    "src/index.css": {
+      "hash": "093b48a5126ce66cd9add59457caf5f6e82a9976af3ccb9db0e1c4118c32acb3",
+      "pulledAt": "2026-10-25T23:24:49.287Z"
+    },
+    "src/main.tsx": {
+      "hash": "a0ab75e5c47174ac3a52c5ed986f58ecae43295457b842ea2ca51d86eb688563",
+      "pulledAt": "2026-10-25T23:24:49.288Z"
+    },
+    "src/onchain-facts.ts": {
+      "hash": "c7c314ada2f6be684dcd24c703fee3fec68f8bc0a2c7c9d1bcf3633c33199abd",
+      "pulledAt": "2026-10-25T23:24:49.288Z"
+    },
+    "src/onchain-money.ts": {
+      "hash": "1ac379552459f345f429d85b6d3f9f5f052be0c62ab630c6b111ea6f7a78af4f",
+      "pulledAt": "2026-10-25T23:24:49.288Z"
+    },
+    "src/onchain-wait.ts": {
+      "hash": "e6b89dcf266213adea50cd35dd761aa8adfc4fb121dd90c702fb635d98bb1577",
+      "pulledAt": "2026-10-25T23:24:49.288Z"
+    },
+    "src/tracing.ts": {
+      "hash": "3ed5452d5abd6057c818e3362be325c3f1566523927e496e49e0eaf1bafd64b8",
+      "pulledAt": "2026-10-25T23:24:49.289Z"
+    },
+    "src/useRepairChain.ts": {
+      "hash": "854abd51bd8acd8eb914838c6b7d06c0860504d0b03746b13a10b85135889783",
+      "pulledAt": "2026-10-25T23:24:49.289Z"
+    },
+    "src/vite-env.d.ts": {
+      "hash": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "pulledAt": "2026-10-25T23:24:49.289Z"
+    },
+    "contracts/cache/solidity-files-cache.json": {
+      "hash": "bd40fdfa7b7933e3381d388ef81c27013cfc58d6ade9cc6520dd2347e3973ebf",
+      "pulledAt": "2026-10-25T23:24:49.290Z"
+    },
+    "contracts/contract-metadata/.gitkeep": {
+      "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "pulledAt": "2026-10-25T23:24:49.290Z"
+    },
+    "contracts/contract-metadata/ContentPaywall.json": {
+      "hash": "3ae5a3e37520a8188e1b78c69e328459ffdb737abde70f956588ea0491ad194e",
+      "pulledAt": "2026-10-25T23:24:49.290Z"
+    },
+    "contracts/contract-metadata/DocumentPaywall.json": {
+      "hash": "532773cc43b9da8969ce464b0caf58cb1da39932c49e1da08fc38545544a5171",
+      "pulledAt": "2026-10-25T23:24:49.290Z"
+    },
+    "contracts/script/Create2Factory.sol": {
+      "hash": "4b2d23e8364e58e08460c39d6c26dced67b82b7e039c306c671245c4f012c38b",
+      "pulledAt": "2026-10-25T23:24:49.290Z"
+    },
+    "contracts/script/DeployCreate2.s.sol": {
+      "hash": "031692db152269016a8df83293d429f69f90dcb0e563ecc5366a257cbcf334a1",
+      "pulledAt": "2026-10-25T23:24:49.291Z"
+    },
+    "contracts/test-helpers/MockERC20.sol": {
+      "hash": "c4da0dd5c537a472696220247e81e3afc7670be067c490622632b1124177c4d0",
+      "pulledAt": "2026-10-25T23:24:49.291Z"
+    },
+    "contracts/test-integration/.gitkeep": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pulledAt": "2026-10-25T23:24:49.291Z"
+    },
+    "contracts/test/.gitkeep": {
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pulledAt": "2026-10-25T23:24:49.291Z"
+    },
+    "contracts/test/ContentPaywall.Admin.t.sol": {
+      "hash": "f918422a9f40ef6d26d88604f97e4eab7fd6973c6323582e052ddd317e64e2a7",
+      "pulledAt": "2026-10-25T23:24:49.291Z"
+    },
+    "contracts/test/ContentPaywall.Base.t.sol": {
+      "hash": "9b51c748f1948210e087b4c1db6c7e37f1424a286264f34b93adafc7fc705932",
+      "pulledAt": "2026-10-25T23:24:49.292Z"
+    },
+    "contracts/test/ContentPaywall.Deploy.t.sol": {
+      "hash": "f167d4fc5914d1da32de15751802fc66c478c43a4a710df72d1caf962545f638",
+      "pulledAt": "2026-10-25T23:24:49.293Z"
+    },
+    "contracts/test/ContentPaywall.Fuzz.t.sol": {
+      "hash": "e7b4febd1991a12bb49d16419591bec9c1884c61b023d104cc6e5d570373ebdf",
+      "pulledAt": "2026-10-25T23:24:49.293Z"
+    },
+    "contracts/test/ContentPaywall.Invariant.t.sol": {
+      "hash": "fd9571e9674c7f7cfa19f52c1fed82ee98f8492b757b3cee60d7a871dd9d29d7",
+      "pulledAt": "2026-10-25T23:24:49.294Z"
+    },
+    "contracts/test/ContentPaywall.Unlock.t.sol": {
+      "hash": "50240d0757104e71fc86c482442cbf390cfef3180c9eb007795b91a8b901bd75",
+      "pulledAt": "2026-10-25T23:24:49.295Z"
+    },
+    "lib/forge-std/.gitattributes": {
+      "hash": "d43e42793190ab90b245b9f5eed4d6c6913e8e71231aa703982c175834da5123",
+      "pulledAt": "2026-10-25T23:24:49.295Z"
+    },
+    "lib/forge-std/.gitignore": {
+      "hash": "e4dcbc27aa146e2f1e229445790ce9c2af39db903ebf93c7fc89762388227d9e",
+      "pulledAt": "2026-10-25T23:24:49.295Z"
+    },
+    "lib/forge-std/CONTRIBUTING.md": {
+      "hash": "2732beedfe7d7b1ac1344269aed75b9eb7f5f0903e24bad611e78def154b1867",
+      "pulledAt": "2026-10-25T23:24:49.295Z"
+    },
+    "lib/forge-std/LICENSE-APACHE": {
+      "hash": "50b6bf8bdb63265ce14953b480b7aaa0271e78f56843b99c184abd3ae5048cd7",
+      "pulledAt": "2026-10-25T23:24:49.296Z"
+    },
+    "lib/forge-std/LICENSE-MIT": {
+      "hash": "6d185dfe089d4de346d391fc5997fbd4739bad1d6556010413c10f420d704ecc",
+      "pulledAt": "2026-10-25T23:24:49.297Z"
+    },
+    "lib/forge-std/README.md": {
+      "hash": "257d2c692f847b166ba32bec7a15d3c426fa8ae7a5244b2d752b96443af83e42",
+      "pulledAt": "2026-10-25T23:24:49.297Z"
+    },
+    "lib/forge-std/RELEASE_CHECKLIST.md": {
+      "hash": "626d604142581e870f0936829ddd09fc7cb953652ddd9e45ba8513f8fa3c7485",
+      "pulledAt": "2026-10-25T23:24:49.297Z"
+    },
+    "lib/forge-std/foundry.toml": {
+      "hash": "ebf0083b7b67db5e9808db2d70fa9a51f903fd14d7751d5ec9a7b8a768af1abe",
+      "pulledAt": "2026-10-25T23:24:49.298Z"
+    },
+    "lib/forge-std/package.json": {
+      "hash": "d76d7594be85fdbffe91ed3918eaf1fb67ec9b00f453482f97c011408b024b70",
+      "pulledAt": "2026-10-25T23:24:49.298Z"
+    },
+    "src/components/NavBar.tsx": {
+      "hash": "e715ba47c8d5cdcd8f21184c4ae22d266ffe6cfdd438933bfabc7e8cee47a022",
+      "pulledAt": "2026-10-25T23:24:49.298Z"
+    },
+    "src/lib/api.ts": {
+      "hash": "e80c430aed1f2e177ce7b6e37e09e346d8d53e197e1a33015eafa853dff66fa8",
+      "pulledAt": "2026-10-25T23:24:49.298Z"
+    },
+    "src/pages/Home.tsx": {
+      "hash": "0675d780d942818791ac0faee36426148774bf2fd2d1b827c802dbd31e6a98b2",
+      "pulledAt": "2026-10-25T23:24:49.298Z"
+    },
+    "src/pages/Publish.tsx": {
+      "hash": "22ba327e8607ffbd4f52fc31162acd05809d73089d038f42ec1db5e8aff7a9c3",
+      "pulledAt": "2026-10-25T23:24:49.300Z"
+    },
+    "src/pages/Read.tsx": {
+      "hash": "11e4f2052504f46722466bee5133601df6272da8eef1ab92d19618ef719c08ae",
+      "pulledAt": "2026-10-25T23:24:49.301Z"
+    },
+    ".agents/skills/example/SKILL.md": {
+      "hash": "bc2942d9dd52994c71121705e5d42aa5f0e0678a65ed4b4d0d7246b4d17df138",
+      "pulledAt": "2026-10-25T23:24:49.301Z"
+    },
+    "contracts/out/Base.sol/CommonBase.json": {
+      "hash": "61d3150ec4acfdd91e276241d79255ba964d21f7544470a70cb13a7ffdd9fabc",
+      "pulledAt": "2026-10-25T23:24:49.302Z"
+    },
+    "contracts/out/Base.sol/ScriptBase.json": {
+      "hash": "da20ce547c5f8fa88655176fc6af56250130f3d983b4af90a998904ba221d513",
+      "pulledAt": "2026-10-25T23:24:49.302Z"
+    },
+    "contracts/out/Base.sol/TestBase.json": {
+      "hash": "27ac5f1c0a80f252c5e70f80953211d7a52e73f5dcf34d3bfed34e22c723330a",
+      "pulledAt": "2026-10-25T23:24:49.302Z"
+    },
+    "contracts/out/ContentPaywall.Admin.t.sol/ContentPaywallAdminTest.json": {
+      "hash": "bb34a26830db1bda7a24dbb921f6ccff369510b796a25332e70de592cb72ef0e",
+      "pulledAt": "2026-10-25T23:24:49.304Z"
+    },
+    "contracts/out/ContentPaywall.Base.t.sol/ContentPaywallTestBase.json": {
+      "hash": "035bb6487f9bdeda9c2abe2aaf9dcc52bc42af2b3e67d4dfc08d1d2d24595411",
+      "pulledAt": "2026-10-25T23:24:49.305Z"
+    },
+    "contracts/out/ContentPaywall.Deploy.t.sol/ContentPaywallDeployTest.json": {
+      "hash": "91263ea1b432ca538fd816f0de72f935482eb39a00429a53d7e6ffe7d04d7b9d",
+      "pulledAt": "2026-10-25T23:24:49.307Z"
+    },
+    "contracts/out/ContentPaywall.Fuzz.t.sol/ContentPaywallFuzzTest.json": {
+      "hash": "2ece646771185be86fdfd7282482a526f326ea2dbb194aa69aa576af0ba7e3a3",
+      "pulledAt": "2026-10-25T23:24:49.308Z"
+    },
+    "contracts/out/ContentPaywall.Invariant.t.sol/ContentPaywallHandler.json": {
+      "hash": "8ac8e52344e8b9de57a15502bd65aa7426fc04e97a8271b0e4aa628375a0d36d",
+      "pulledAt": "2026-10-25T23:24:49.309Z"
+    },
+    "contracts/out/ContentPaywall.Invariant.t.sol/ContentPaywallInvariantTest.json": {
+      "hash": "6d07dc4bbfdf010c82fecb3b53812318b993580b2c6f75e6d314076aacdf53dc",
+      "pulledAt": "2026-10-25T23:24:49.310Z"
+    },
+    "contracts/out/ContentPaywall.Unlock.t.sol/ContentPaywallUnlockTest.json": {
+      "hash": "518289952edf03c3fc34c1f79cb7e72619a53587ed6e77a47efc2674f0652d99",
+      "pulledAt": "2026-10-25T23:24:49.311Z"
+    },
+    "contracts/out/ContentPaywall.sol/ContentPaywall.json": {
+      "hash": "1a66c4ef68d3590fbef161e26d6dec980020575c78fcd1af339a6a81b4fbee3a",
+      "pulledAt": "2026-10-25T23:24:49.312Z"
+    },
+    "contracts/out/Context.sol/Context.json": {
+      "hash": "031d45fbf376f668bdb1a1c4efc930bb9697c1d4f54a66f206244eb02b9aa6ab",
+      "pulledAt": "2026-10-25T23:24:49.312Z"
+    },
+    "contracts/out/Create2.sol/Create2.json": {
+      "hash": "a14d4f37af9f095abb481f190b06196b990542fe57e77ce86523df2274a6b487",
+      "pulledAt": "2026-10-25T23:24:49.312Z"
+    },
+    "contracts/out/Create2Factory.sol/Create2Factory.json": {
+      "hash": "cce1c511f4430b47e92d9f0307af86c773078949fc1108644fa9a91cebebce53",
+      "pulledAt": "2026-10-25T23:24:49.313Z"
+    },
+    "contracts/out/DeployCreate2.s.sol/DeployCreate2.json": {
+      "hash": "fb83e639600729c5ebb213b4a614491ecd56ffa594b2e84912dbc64e3c4be58a",
+      "pulledAt": "2026-10-25T23:24:49.313Z"
+    },
+    "contracts/out/DocumentPaywall.sol/DocumentPaywall.json": {
+      "hash": "3f5ce1d778c6460b26b65aed55e863d3a64f0d7381a65bc405f1b4c433d65744",
+      "pulledAt": "2026-10-25T23:24:49.314Z"
+    },
+    "contracts/out/Errors.sol/Errors.json": {
+      "hash": "e6a256ea6db8e5f3d7aeccdbfd39b94f33a8dcd4e9a43d65406f02dc603d079f",
+      "pulledAt": "2026-10-25T23:24:49.314Z"
+    },
+    "contracts/out/IERC1363.sol/IERC1363.json": {
+      "hash": "30362d3e1a66d00c39d489cb65e21925a6973737d3bc84c74d60653e5dfc209a",
+      "pulledAt": "2026-10-25T23:24:49.315Z"
+    },
+    "contracts/out/IERC165.sol/IERC165.json": {
+      "hash": "475ce99dce95cad0290e1b5a63d3c3063a37572441c70b34d4dadfa906722c84",
+      "pulledAt": "2026-10-25T23:24:49.315Z"
+    },
+    "contracts/out/IERC20.sol/IERC20.json": {
+      "hash": "06a721930784e6ca67f96970c485949696104a733eb2d913db4bcb8c9fdcb735",
+      "pulledAt": "2026-10-25T23:24:49.315Z"
+    },
+    "contracts/out/IMulticall3.sol/IMulticall3.json": {
+      "hash": "a08442294192ba8b779121c9df767ac656f4528e2f56bf0548fc5be587b021af",
+      "pulledAt": "2026-10-25T23:24:49.316Z"
+    },
+    "contracts/out/LowLevelCall.sol/LowLevelCall.json": {
+      "hash": "b8c456de46cc4183dbc2d22cd5543ddcee5502257682d3f2381d29974bfa8300",
+      "pulledAt": "2026-10-25T23:24:49.316Z"
+    },
+    "contracts/out/MockERC20.sol/MockERC20.json": {
+      "hash": "1712889912e42b0a3a0ef939b535ef9be48c63657daa435b1fe16068d1f58d74",
+      "pulledAt": "2026-10-25T23:24:49.316Z"
+    },
+    "contracts/out/Ownable.sol/Ownable.json": {
+      "hash": "daaede84df37dc042c08ea1934d7a39fc63fdaa7dfa4e306fee4642585278a3c",
+      "pulledAt": "2026-10-25T23:24:49.317Z"
+    },
+    "contracts/out/ReentrancyGuard.sol/ReentrancyGuard.json": {
+      "hash": "1773ec962fafd80993552ef214223a955c056dd4ab0f903673bace98045ba0e6",
+      "pulledAt": "2026-10-25T23:24:49.317Z"
+    },
+    "contracts/out/SafeERC20.sol/SafeERC20.json": {
+      "hash": "0dd1c09f2acccdaf2064d7fc4cae5c4cd75a7f3bf1d81eecd16a22744a580cf0",
+      "pulledAt": "2026-10-25T23:24:49.318Z"
+    },
+    "contracts/out/Script.sol/Script.json": {
+      "hash": "8ebc802b41c3ac3aad3ed3a02dd529ad31f799d7d75c315d8d92144d4e9493b2",
+      "pulledAt": "2026-10-25T23:24:49.319Z"
+    },
+    "contracts/out/StdAssertions.sol/StdAssertions.json": {
+      "hash": "909ea260761d9ea010ad2141c1f59aa5aed91f72e248b57e758bbf8b930adb84",
+      "pulledAt": "2026-10-25T23:24:49.319Z"
+    },
+    "contracts/out/StdChains.sol/StdChains.json": {
+      "hash": "4c3a07f4993bbc2341da1313096c98052f81420858ffe86ac616d1dc9512c44f",
+      "pulledAt": "2026-10-25T23:24:49.319Z"
+    },
+    "contracts/out/StdCheats.sol/StdCheats.json": {
+      "hash": "c50ee02af58c01f4530b212931caa1d7881b73a1b845bcb2f7126d6f0ae42884",
+      "pulledAt": "2026-10-25T23:24:49.319Z"
+    },
+    "contracts/out/StdCheats.sol/StdCheatsSafe.json": {
+      "hash": "da49bf41d5ea510e1bf2e858d73c3cd0fc087f5a44c3bffce33f0c0c3f390daa",
+      "pulledAt": "2026-10-25T23:24:49.320Z"
+    },
+    "contracts/out/StdConstants.sol/StdConstants.json": {
+      "hash": "2ddd4370957304177924ff310624e8f5da5af3649f817ac8193844cd4d236263",
+      "pulledAt": "2026-10-25T23:24:49.320Z"
+    },
+    "contracts/out/StdError.sol/stdError.json": {
+      "hash": "192a0849cc46f3cca7faa36112f34e43c99a421a53c5d69e7abf085844b98722",
+      "pulledAt": "2026-10-25T23:24:49.320Z"
+    },
+    "contracts/out/StdInvariant.sol/StdInvariant.json": {
+      "hash": "693bb8f76dac1ad510c7b7778bec22bb7b59bfe65c8223bbc4bf857c20c0b07b",
+      "pulledAt": "2026-10-25T23:24:49.320Z"
+    },
+    "contracts/out/StdJson.sol/stdJson.json": {
+      "hash": "54788249c53861dbff0fce8f13625eee58ac98e68b30451e867fb2eb0154354b",
+      "pulledAt": "2026-10-25T23:24:49.321Z"
+    },
+    "contracts/out/StdMath.sol/stdMath.json": {
+      "hash": "a5d39718d282277dbc9f8f51cec60ad26073bec74d03fa39ceec7bc259b4400e",
+      "pulledAt": "2026-10-25T23:24:49.321Z"
+    },
+    "contracts/out/StdStorage.sol/stdStorage.json": {
+      "hash": "fbe6ae0aa7527d667ccf00864b90a6fd215f0e5bba11f78a14c0f8afbdef264b",
+      "pulledAt": "2026-10-25T23:24:49.321Z"
+    },
+    "contracts/out/StdStorage.sol/stdStorageSafe.json": {
+      "hash": "5b70f8ad3c72473d18395ebc2b90b1c981f5d341560d79969e190a838017b80e",
+      "pulledAt": "2026-10-25T23:24:49.321Z"
+    },
+    "contracts/out/StdStyle.sol/StdStyle.json": {
+      "hash": "093dbf5917dcaf724460124fcbd348d67d9971cd97c4495fbec568714ed7db5f",
+      "pulledAt": "2026-10-25T23:24:49.322Z"
+    },
+    "contracts/out/StdToml.sol/stdToml.json": {
+      "hash": "68e28d293732c6ab902895a84158a6c72890a31a0dc1b98788a0f79e3e845d56",
+      "pulledAt": "2026-10-25T23:24:49.322Z"
+    },
+    "contracts/out/StdUtils.sol/StdUtils.json": {
+      "hash": "28ae460d2d59fb47b789c10a5970ea73db9b43f308ad9200381b2b85a55ce527",
+      "pulledAt": "2026-10-25T23:24:49.323Z"
+    },
+    "contracts/out/StorageSlot.sol/StorageSlot.json": {
+      "hash": "ff197dedf7a125ecd2c31d6c9dd7da49a9fdb5c8f814fad1ef137e2d6c67a5d2",
+      "pulledAt": "2026-10-25T23:24:49.323Z"
+    },
+    "contracts/out/Test.sol/Test.json": {
+      "hash": "f3bed21369333ebbbd8c91ac75bbceb46537aa89d3f4c9058a738a4ed2312046",
+      "pulledAt": "2026-10-25T23:24:49.323Z"
+    },
+    "contracts/out/Vm.sol/Vm.json": {
+      "hash": "dd2769b00cd1477ecdf551c5c743171f9cb9518f7327512f555d70d01de05bc5",
+      "pulledAt": "2026-10-25T23:24:49.329Z"
+    },
+    "contracts/out/Vm.sol/VmSafe.json": {
+      "hash": "4202a6a89b04aad1a0c001c43a59fce6b0148ca4876721b72937fe38193da56c",
+      "pulledAt": "2026-10-25T23:24:49.332Z"
+    },
+    "contracts/out/build-info/99d40cabb04011c4.json": {
+      "hash": "230f7525d36e00f40660a72e18492f6ae63d418dcc35b496b103b061131070a7",
+      "pulledAt": "2026-10-25T23:24:49.333Z"
+    },
+    "contracts/out/build-info/e1914901a1f5f485.json": {
+      "hash": "9a30482d55d30a45b6bd5470e031137f5abc94c92d25db355da228e26b2b8ff6",
+      "pulledAt": "2026-10-25T23:24:49.333Z"
+    },
+    "contracts/out/build-info/efe8c9a313c373d0.json": {
+      "hash": "3d739182c50bc17683c1e1fa11267a13bcf09a4f2a09b9f5a7ca452456f04a94",
+      "pulledAt": "2026-10-25T23:24:49.338Z"
+    },
+    "contracts/out/console.sol/console.json": {
+      "hash": "e8c3f509cec389741b670e12b8f655830fe318bd744b4bd485326ee9a5008aa8",
+      "pulledAt": "2026-10-25T23:24:49.339Z"
+    },
+    "contracts/out/safeconsole.sol/safeconsole.json": {
+      "hash": "2b508e1118f2889e9bdaabfe4d1084a890191aef4d5d21e66adbedbc3702dafc",
+      "pulledAt": "2026-10-25T23:24:49.339Z"
+    },
+    "lib/forge-std/.github/CODEOWNERS": {
+      "hash": "6581f9b967d9892ab55f3d4a97ea4f805285a48edb922b23489b674763e5c251",
+      "pulledAt": "2026-10-25T23:24:49.339Z"
+    },
+    "lib/forge-std/.github/dependabot.yml": {
+      "hash": "5b7ca92e2a1b35550092b410b6640303bc13ad1d9fcde221b1de1622ef30052f",
+      "pulledAt": "2026-10-25T23:24:49.339Z"
+    },
+    "lib/forge-std/scripts/vm.py": {
+      "hash": "40971b61413aa75ec6111d7817af7ed51c19d5052a0a6f8504a568eb265ebb94",
+      "pulledAt": "2026-10-25T23:24:49.340Z"
+    },
+    "lib/forge-std/src/Base.sol": {
+      "hash": "76b05dda37981797d3d403f29fc6cad79b46e2fc11da47d649ff13acb69158b2",
+      "pulledAt": "2026-10-25T23:24:49.340Z"
+    },
+    "lib/forge-std/src/Config.sol": {
+      "hash": "850649e2ede6e0e1384ba00eba1335a7af7e97643c731a4587335c0f51f67041",
+      "pulledAt": "2026-10-25T23:24:49.340Z"
+    },
+    "lib/forge-std/src/LibVariable.sol": {
+      "hash": "0b789ace36e54d1746d08b9b161f5ab4c2fa55c8d30808421349ae33f703c797",
+      "pulledAt": "2026-10-25T23:24:49.340Z"
+    },
+    "lib/forge-std/src/Script.sol": {
+      "hash": "cfb5be01f4ddbc037a3502dac3d487d629a4c8b58aa9e2ec48c9fa1b334d96ec",
+      "pulledAt": "2026-10-25T23:24:49.341Z"
+    },
+    "lib/forge-std/src/StdAssertions.sol": {
+      "hash": "203de35565c3d68b6599f84e88068f79c23b53a80d18c46056e85d4c5f48613c",
+      "pulledAt": "2026-10-25T23:24:49.341Z"
+    },
+    "lib/forge-std/src/StdChains.sol": {
+      "hash": "981b7ce12f4bc3193c7914c68f51be74d1d03c33732db894f5d36ad8025ab4f5",
+      "pulledAt": "2026-10-25T23:24:49.341Z"
+    },
+    "lib/forge-std/src/StdCheats.sol": {
+      "hash": "988843996b3e8ebab594c659fba9502bab437220f84e7ded9a9e3f6e730d358e",
+      "pulledAt": "2026-10-25T23:24:49.342Z"
+    },
+    "lib/forge-std/src/StdConfig.sol": {
+      "hash": "bc9e89ad0fab53103f8301322739aaafc32a0cccb571132ee7f54f10b6a2feb5",
+      "pulledAt": "2026-10-25T23:24:49.342Z"
+    },
+    "lib/forge-std/src/StdConstants.sol": {
+      "hash": "17dfd996881264de1e6af6697a3dc7a56ae8ff0717e4cb4f1685bd7fb3a45147",
+      "pulledAt": "2026-10-25T23:24:49.342Z"
+    },
+    "lib/forge-std/src/StdError.sol": {
+      "hash": "c1f7271f11a44628810ef6beb2da0c43add131ff9cfcac4d7acd633c269ccf7d",
+      "pulledAt": "2026-10-25T23:24:49.342Z"
+    },
+    "lib/forge-std/src/StdInvariant.sol": {
+      "hash": "7d3a62087c7d06766e99f8e4f4e50997b0ff8730fb304986f2c4cd895a67fbbd",
+      "pulledAt": "2026-10-25T23:24:49.343Z"
+    },
+    "lib/forge-std/src/StdJson.sol": {
+      "hash": "556494110d1e791ce0992bf22c2ac6df5e614122659a97cd1269a8d9dce139c0",
+      "pulledAt": "2026-10-25T23:24:49.343Z"
+    },
+    "lib/forge-std/src/StdMath.sol": {
+      "hash": "7224cea66fc06c7a9d303084cccb14eaedffe4b21b3f9695d06dc590d2894d7d",
+      "pulledAt": "2026-10-25T23:24:49.343Z"
+    },
+    "lib/forge-std/src/StdStorage.sol": {
+      "hash": "8835d2e5de9ceca2a4988a212916216de052634584f832d5364dc8c42d460113",
+      "pulledAt": "2026-10-25T23:24:49.343Z"
+    },
+    "lib/forge-std/src/StdStyle.sol": {
+      "hash": "903ea6f4e4aa31e416b5043abecc09ced41dc78c9ce9dabb5c745337ee13139d",
+      "pulledAt": "2026-10-25T23:24:49.344Z"
+    },
+    "lib/forge-std/src/StdToml.sol": {
+      "hash": "682e9c74bd02de5df7be595d27fa44eeaf0a5d96ad5c2db507065386d35eb433",
+      "pulledAt": "2026-10-25T23:24:49.344Z"
+    },
+    "lib/forge-std/src/StdUtils.sol": {
+      "hash": "52d713d886305184e7ed3b3a2e5941ea1440f071d9c9a4d6fea618135e1d3f67",
+      "pulledAt": "2026-10-25T23:24:49.344Z"
+    },
+    "lib/forge-std/src/Test.sol": {
+      "hash": "2e69383110d088b4c413edf79bb71f9d05e4791625fb7fa53429d34440ea50dd",
+      "pulledAt": "2026-10-25T23:24:49.344Z"
+    },
+    "lib/forge-std/src/Vm.sol": {
+      "hash": "ad4bc58d4a2cfdb45c6439fe977a7ad390fd83e3e7485ec4597458a278993eeb",
+      "pulledAt": "2026-10-25T23:24:49.346Z"
+    },
+    "lib/forge-std/src/console.sol": {
+      "hash": "894dc6e40fe62d887df6243112d8c775df2db60babc3024ee04a5564b90af64d",
+      "pulledAt": "2026-10-25T23:24:49.346Z"
+    },
+    "lib/forge-std/src/console2.sol": {
+      "hash": "62d8ccbd118fec4f99c5e847322d6ca0d7fbe6a0a16e5a26b0590869fcd69357",
+      "pulledAt": "2026-10-25T23:24:49.347Z"
+    },
+    "lib/forge-std/src/safeconsole.sol": {
+      "hash": "fd74d8ed377e1470217cd6dce7699dcbc4e79b3893f17ae2a298c0e7e4418181",
+      "pulledAt": "2026-10-25T23:24:49.349Z"
+    },
+    "lib/forge-std/test/CommonBase.t.sol": {
+      "hash": "b66facae40cf67dba4e0a3924971873c23c4d5078404156054f8062a9d2cba0a",
+      "pulledAt": "2026-10-25T23:24:49.349Z"
+    },
+    "lib/forge-std/test/Config.t.sol": {
+      "hash": "a374bab9059a8b29f6e1d6bad115442c3b5abecd0147d66f7aec74857d2b395a",
+      "pulledAt": "2026-10-25T23:24:49.349Z"
+    },
+    "lib/forge-std/test/LibVariable.t.sol": {
+      "hash": "3ced9d2b5d3a088cfc992305798313ee929472e07bd94948c7819dda086d1df4",
+      "pulledAt": "2026-10-25T23:24:49.350Z"
+    },
+    "lib/forge-std/test/StdAssertions.t.sol": {
+      "hash": "a33da2d3aac6bb6b69de52b3f3a4aa58c2d9c181663ea6898da6531059748da9",
+      "pulledAt": "2026-10-25T23:24:49.350Z"
+    },
+    "lib/forge-std/test/StdChains.t.sol": {
+      "hash": "4237fb9cc061d0db2861fe5264425def41d61db98e085c8ef5851bd2f849c904",
+      "pulledAt": "2026-10-25T23:24:49.350Z"
+    },
+    "lib/forge-std/test/StdCheats.t.sol": {
+      "hash": "ad64c6d53ae3699326cc3a1cfa1c054b37d29d08e09ddebea0e831fc1bf4ed1a",
+      "pulledAt": "2026-10-25T23:24:49.351Z"
+    },
+    "lib/forge-std/test/StdConstants.t.sol": {
+      "hash": "c11d44d7c05dbe498dc6114a5ce0f77da0ce8f31e8b647bfaeba7b4bb77c0ff3",
+      "pulledAt": "2026-10-25T23:24:49.351Z"
+    },
+    "lib/forge-std/test/StdError.t.sol": {
+      "hash": "ffb8f44814e47aa7b7c5c3b25a77722386e1497d36e9848199e145ab7db6245e",
+      "pulledAt": "2026-10-25T23:24:49.351Z"
+    },
+    "lib/forge-std/test/StdJson.t.sol": {
+      "hash": "b94d6825c392a2be0b15047e6972ba6d0c27401701318bd5df8a9d3b5f8d8932",
+      "pulledAt": "2026-10-25T23:24:49.351Z"
+    },
+    "lib/forge-std/test/StdMath.t.sol": {
+      "hash": "5ef423c27bddb562a24a66248f1e377ac7b5bcfca7e842a06a56c67a7cb3ee4a",
+      "pulledAt": "2026-10-25T23:24:49.352Z"
+    },
+    "lib/forge-std/test/StdStorage.t.sol": {
+      "hash": "7de387469dc22d2b81bb58c9ec1bc3cceabf1d5f4baabe565d7861d7f09b782d",
+      "pulledAt": "2026-10-25T23:24:49.352Z"
+    },
+    "lib/forge-std/test/StdStyle.t.sol": {
+      "hash": "121ab9c2542ff6c48832ab64f358651c81d51d35ffdb93928d645c2d0fcb7f0e",
+      "pulledAt": "2026-10-25T23:24:49.352Z"
+    },
+    "lib/forge-std/test/StdToml.t.sol": {
+      "hash": "4512ece276443fc74d7d15266d7723335ce348053ced9bae6485e9110321d5b0",
+      "pulledAt": "2026-10-25T23:24:49.352Z"
+    },
+    "lib/forge-std/test/StdUtils.t.sol": {
+      "hash": "d6a1d0771e8ae447609060fa74c04f5843a7e5fb85d1d8ed867c8210317aedd4",
+      "pulledAt": "2026-10-25T23:24:49.353Z"
+    },
+    "lib/forge-std/test/Vm.t.sol": {
+      "hash": "6821007c669dda95eea215102bb82f61a575c12ae61f45e1d529d830c5e1e833",
+      "pulledAt": "2026-10-25T23:24:49.353Z"
+    },
+    "contracts/out/interfaces/IERC165.sol/IERC165.json": {
+      "hash": "4daee06d0fcfdd75b23d7ce92ed547e20a6350c06d428ed467d72e5be51519db",
+      "pulledAt": "2026-10-25T23:24:49.353Z"
+    },
+    "contracts/out/interfaces/IERC20.sol/IERC20.json": {
+      "hash": "ab34d12f6e9fd08a0b9c79a7e4f52f6c7211770bda779caaf5933038de12950d",
+      "pulledAt": "2026-10-25T23:24:49.353Z"
+    },
+    "lib/forge-std/.github/workflows/ci.yml": {
+      "hash": "177a1841f3528b297cf0fbffba5982f20635cb4dbd3a0c820431c3e592faca93",
+      "pulledAt": "2026-10-25T23:24:49.353Z"
+    },
+    "lib/forge-std/.github/workflows/sync.yml": {
+      "hash": "367fe7e6b6c946ab6a6c75cc183d2819c90ea5081d326c9c83a545134bfa0dad",
+      "pulledAt": "2026-10-25T23:24:49.354Z"
+    },
+    "lib/forge-std/src/interfaces/IERC1155.sol": {
+      "hash": "d10916158da2bbecc56364cda787da303b57313d478c150b1c79ac05d3b2936c",
+      "pulledAt": "2026-10-25T23:24:49.354Z"
+    },
+    "lib/forge-std/src/interfaces/IERC165.sol": {
+      "hash": "d9bea769cd3aa52c5dfbfe7b447a63b00ab22baaa4f9d2af789f44553078a27b",
+      "pulledAt": "2026-10-25T23:24:49.354Z"
+    },
+    "lib/forge-std/src/interfaces/IERC20.sol": {
+      "hash": "cb4bf7f4c0bc513e2c82f251a84e67d2e950cef12e570f40a0d4880b2e25fc9f",
+      "pulledAt": "2026-10-25T23:24:49.354Z"
+    },
+    "lib/forge-std/src/interfaces/IERC4626.sol": {
+      "hash": "5b9da91e1215dc84a606c06f636b34582aec6cdf35ae828dce3852f727d9278e",
+      "pulledAt": "2026-10-25T23:24:49.354Z"
+    },
+    "lib/forge-std/src/interfaces/IERC6909.sol": {
+      "hash": "44ef6ba5ab803241ed5992f35606820322e2df5947da488870c78f2181d97840",
+      "pulledAt": "2026-10-25T23:24:49.355Z"
+    },
+    "lib/forge-std/src/interfaces/IERC721.sol": {
+      "hash": "2e6e000940bf5278cf64f170ac839682667368a5aee7222b312e255ec8eda275",
+      "pulledAt": "2026-10-25T23:24:49.355Z"
+    },
+    "lib/forge-std/src/interfaces/IERC7540.sol": {
+      "hash": "5b9e0d90816f47628b2023351c84e9b8d8667f685c98234742be99dc8eaf2fb6",
+      "pulledAt": "2026-10-25T23:24:49.355Z"
+    },
+    "lib/forge-std/src/interfaces/IERC7575.sol": {
+      "hash": "15163bc29d96c6b905b53da06e243fbd2ae6b7c8984b8306ff4c9b0716ec055b",
+      "pulledAt": "2026-10-25T23:24:49.355Z"
+    },
+    "lib/forge-std/src/interfaces/IMulticall3.sol": {
+      "hash": "890a5b361034daa6006b3ba2275e743cd6197c4d81e3df5732cdce731d3c0868",
+      "pulledAt": "2026-10-25T23:24:49.356Z"
+    },
+    "lib/forge-std/test/compilation/CompilationScript.sol": {
+      "hash": "58e7d27d2c862e119a6851a5fd99c894d778441b3e5121c4c94047af2133bfaf",
+      "pulledAt": "2026-10-25T23:24:49.356Z"
+    },
+    "lib/forge-std/test/compilation/CompilationScriptBase.sol": {
+      "hash": "99cbc9ca01f6108199e18aff10132042707426ed9a4025c2afee003c3479cce3",
+      "pulledAt": "2026-10-25T23:24:49.356Z"
+    },
+    "lib/forge-std/test/compilation/CompilationTest.sol": {
+      "hash": "24fa43d5b532c9691f8e19176664631f95c30ec47134ec5e30ebf6ef96c6be51",
+      "pulledAt": "2026-10-25T23:24:49.356Z"
+    },
+    "lib/forge-std/test/compilation/CompilationTestBase.sol": {
+      "hash": "b56b1232e691f184313bfebedba532ddbcc6ae8810cee7c699320d386e7f218b",
+      "pulledAt": "2026-10-25T23:24:49.356Z"
+    },
+    "lib/forge-std/test/fixtures/broadcast.log.json": {
+      "hash": "567f1109599f4961096d36a5641d8115d73c098813331cff10b972490c72cc39",
+      "pulledAt": "2026-10-25T23:24:49.357Z"
+    },
+    "lib/forge-std/test/fixtures/config.toml": {
+      "hash": "94740ba258f40f52e77d45df237969741d31c7fa56f0e4e61986aec5f48b82dd",
+      "pulledAt": "2026-10-25T23:24:49.357Z"
+    },
+    "lib/forge-std/test/fixtures/test.json": {
+      "hash": "79965907225af6bd76ccc20c0279e84e1d916529a423fbaba8f5b6ef91d5ee26",
+      "pulledAt": "2026-10-25T23:24:49.357Z"
+    },
+    "lib/forge-std/test/fixtures/test.toml": {
+      "hash": "6996badd8df6c4f7a8aac58a1b8c97a7c0ba8ec302a3c4645f2042ae45354cf2",
+      "pulledAt": "2026-10-25T23:24:49.357Z"
+    }
+  }
+}
