@@ -4,7 +4,7 @@ import express from 'express'
 import multer from 'multer'
 import { initDb, nextDocId, createArticle, getArticleByDocId, listArticles } from './db'
 import { checkOnchainUnlock } from './chain'
-import { arcTestnetRpcUrl } from './rpc-url'
+import { arcTestnetRpcUrls } from './rpc-url'
 
 const app = express()
 app.use(express.json())
@@ -24,19 +24,27 @@ app.use((req, res, next) => {
 // Browser-to-Arc-RPC proxy. Credentials stay server-side so the browser never
 // sees them; Vite devserver forwards /rpc → here, keeping CORS a non-issue.
 app.post('/rpc', async (req, res) => {
-  const rpcUrl = arcTestnetRpcUrl()
-  try {
-    const upstream = await fetch(rpcUrl, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(req.body),
-    })
-    const data = await upstream.json() as unknown
-    res.status(upstream.status).json(data)
-  } catch (err) {
-    console.error('[rpc-proxy]', err)
-    res.status(502).json({ error: 'RPC proxy error', detail: String(err) })
+  // Try each upstream in order: the provisioned proxy first (when a token is
+  // configured), then public endpoints. A single dead upstream must not take
+  // the whole app down.
+  let lastErr: unknown
+  for (const rpcUrl of arcTestnetRpcUrls()) {
+    try {
+      const upstream = await fetch(rpcUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(req.body),
+      })
+      const data = await upstream.json() as unknown
+      res.status(upstream.status).json(data)
+      return
+    } catch (err) {
+      lastErr = err
+      console.warn('[rpc-proxy] upstream failed:', rpcUrl, err)
+    }
   }
+  console.error('[rpc-proxy] all upstreams failed', lastErr)
+  res.status(502).json({ error: 'RPC proxy error', detail: String(lastErr) })
 })
 
 // ── File upload storage ──────────────────────────────────────────────────────
